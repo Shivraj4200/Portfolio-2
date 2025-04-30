@@ -3,6 +3,10 @@ import React from 'react';
 import { Github, ExternalLink, Code } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
+import pic1 from '@/components/pic1.jpg';
+import pic2 from '@/components/pic2.png';
+import pic3 from '@/components/pic3.png';
+
 
 type Project = {
   name: string;
@@ -30,7 +34,7 @@ const ProjectsSection = () => {
       ],
       outcome: " Achieved a 30% increase in user engagement and a 25% improvement in user retention within three months of launch.",
       github: "https://github.com/Shivraj4200/Fitness-Management-System",
-      image: "/pic1.jpg",
+      image: pic1,
     },
     {
       name: "Appointement Management System",
@@ -44,7 +48,7 @@ const ProjectsSection = () => {
       ],
       outcome: " Enhanced user experience with a 40% reduction in appointment booking time and improved admin management efficiency.",
       github: "https://github.com/Amangupta81/Appointment-App",
-      image: "/pic2.png",
+      image: pic2,
     },
     {
       name: "Weather App",
@@ -58,7 +62,7 @@ const ProjectsSection = () => {
       ],
       outcome: " Delivered a user-friendly interface with accurate weather updates, achieving a 50% increase in user engagement.",
       github: "https://github.com/Shivraj4200/Weather-App",
-      image: "/pic3.png",
+      image: pic3,
     }
   ];
 
