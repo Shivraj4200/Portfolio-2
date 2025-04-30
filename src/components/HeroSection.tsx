@@ -2,6 +2,7 @@
 import React from 'react';
 import { Download, ArrowDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import mee from "@/components/mee.jpg";
 
 const HeroSection = () => {
   return (
@@ -42,8 +43,7 @@ const HeroSection = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-r from-blue-400 to-purple-500 flex items-center justify-center shadow-lg">
                 <div className="w-60 h-60 md:w-76 md:h-76 rounded-full bg-white overflow-hidden relative">
-                  <img
-                    src="/mee.jpg"
+                  <img {mee}
                     alt="Hero"
                     className="w-full h-full object-cover rounded-full"
                   />
