@@ -30,7 +30,7 @@ const ProjectsSection = () => {
       ],
       outcome: " Achieved a 30% increase in user engagement and a 25% improvement in user retention within three months of launch.",
       github: "https://github.com/Shivraj4200/Fitness-Management-System",
-      image: "src/components/pic1.jpg",
+      image: "/pic1.jpg",
     },
     {
       name: "Appointement Management System",
@@ -44,7 +44,7 @@ const ProjectsSection = () => {
       ],
       outcome: " Enhanced user experience with a 40% reduction in appointment booking time and improved admin management efficiency.",
       github: "https://github.com/Amangupta81/Appointment-App",
-      image: "src/components/pic2.png",
+      image: "/pic2.png",
     },
     {
       name: "Weather App",
@@ -58,7 +58,7 @@ const ProjectsSection = () => {
       ],
       outcome: " Delivered a user-friendly interface with accurate weather updates, achieving a 50% increase in user engagement.",
       github: "https://github.com/Shivraj4200/Weather-App",
-      image: "src/components/pic3.png",
+      image: "/pic3.png",
     }
   ];
 
